@@ -30,4 +30,5 @@ The following images explain how we are setting up the MININET CLI and with the 
 ![Screenshot from 2024-11-11 18-04-09](https://github.com/user-attachments/assets/cf927c78-8761-474b-8a59-23793ebfa535)
 
 # Video demonstrating setting up the Cars with AP's
-[Screencast from 11-11-24 06:48:57 PM IST.webm](https://github.com/user-attachments/assets/b6abdf04-656d-46e4-9810-3ccc0244fcc1)
+
+[Screencast from 11-11-24 06:49:32 PM IST.webm](https://github.com/user-attachments/assets/ee38122d-6713-44e3-814d-4916103ee925)
