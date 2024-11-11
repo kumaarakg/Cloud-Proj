@@ -1,0 +1,6 @@
+<sumo-config>
+    <input>
+        <osm-files value="map.osm"/>
+        <net-file value="your_map.net.xml"/>
+    </input>
+</sumo-config>

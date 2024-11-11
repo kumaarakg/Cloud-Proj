@@ -1,0 +1,588 @@
+17:25:15 **** Build of configuration gcc-debug for project veins ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/src'
+MSGC: veins/common.msg
+MSGC: veins/base/messages/AirFrame.msg
+MSGC: veins/base/messages/BorderMsg.msg
+MSGC: veins/base/messages/MacPkt.msg
+MSGC: veins/base/toolbox/Signal.msg
+MSGC: veins/base/utils/Coord.msg
+MSGC: veins/base/utils/POA.msg
+MSGC: veins/base/utils/SimpleAddress.msg
+MSGC: veins/modules/application/traci/TraCIDemo11pMessage.msg
+MSGC: veins/modules/messages/AckTimeOutMessage.msg
+MSGC: veins/modules/messages/AirFrame11p.msg
+MSGC: veins/modules/messages/BaseFrame1609_4.msg
+MSGC: veins/modules/messages/DemoSafetyMessage.msg
+MSGC: veins/modules/messages/DemoServiceAdvertisement.msg
+MSGC: veins/modules/messages/Mac80211Ack.msg
+MSGC: veins/modules/messages/Mac80211Pkt.msg
+MSGC: veins/modules/messages/PhyControlMessage.msg
+MSGC: veins/modules/messages/TraCITrafficLightMessage.msg
+veins/base/connectionManager/BaseConnectionManager.cc
+veins/base/connectionManager/ChannelAccess.cc
+veins/base/connectionManager/ConnectionManager.cc
+veins/base/connectionManager/NicEntryDebug.cc
+veins/base/connectionManager/NicEntryDirect.cc
+veins/base/modules/BaseApplLayer.cc
+veins/base/modules/BaseBattery.cc
+veins/base/modules/BaseLayer.cc
+veins/base/modules/BaseMacLayer.cc
+veins/base/modules/BaseMobility.cc
+veins/base/modules/BaseModule.cc
+veins/base/modules/BaseWorldUtility.cc
+veins/base/modules/BatteryAccess.cc
+veins/base/phyLayer/Antenna.cc
+veins/base/phyLayer/BaseDecider.cc
+veins/base/phyLayer/BasePhyLayer.cc
+veins/base/phyLayer/ChannelInfo.cc
+veins/base/phyLayer/Decider.cc
+veins/base/phyLayer/PhyUtils.cc
+veins/base/toolbox/Signal.cc
+veins/base/toolbox/SignalUtils.cc
+veins/base/toolbox/Spectrum.cc
+veins/base/utils/Coord.cc
+veins/base/utils/Heading.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/base/phyLayer/BaseDecider.cc:33:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/base/phyLayer/ChannelInfo.h:31,
+                 from ./veins/base/phyLayer/BasePhyLayer.h:38,
+                 from veins/base/phyLayer/BasePhyLayer.cc:25:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/base/phyLayer/ChannelInfo.h:31,
+                 from veins/base/phyLayer/ChannelInfo.cc:25:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/base/phyLayer/PhyUtils.cc:27:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/base/toolbox/Signal.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/base/utils/NedFunctions.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/SignalUtils.h:35,
+                 from veins/base/toolbox/SignalUtils.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from veins/base/toolbox/Spectrum.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/base/utils/NetwToMacControlInfo.cc
+veins/base/utils/SimpleAddress.cc
+veins/base/utils/winsupport.cc
+veins/modules/analogueModel/BreakpointPathlossModel.cc
+veins/modules/analogueModel/NakagamiFading.cc
+veins/modules/analogueModel/PERModel.cc
+veins/modules/analogueModel/SimpleObstacleShadowing.cc
+veins/modules/analogueModel/SimplePathlossModel.cc
+veins/modules/analogueModel/TwoRayInterferenceModel.cc
+veins/modules/analogueModel/VehicleObstacleShadowing.cc
+veins/modules/application/ieee80211p/DemoBaseApplLayer.cc
+veins/modules/application/traci/MyVeinsApp.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/analogueModel/BreakpointPathlossModel.cc:27:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/modules/analogueModel/NakagamiFading.h:28,
+                 from veins/modules/analogueModel/NakagamiFading.cc:24:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/application/traci/TraCIDemo11p.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/analogueModel/PERModel.cc:27:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/application/traci/TraCIDemoRSU11p.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/modules/analogueModel/SimpleObstacleShadowing.h:31,
+                 from veins/modules/analogueModel/SimpleObstacleShadowing.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/analogueModel/SimplePathlossModel.cc:27:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/application/traci/TraCIDemoTrafficLightApp.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/modules/analogueModel/VehicleObstacleShadowing.h:29,
+                 from veins/modules/analogueModel/VehicleObstacleShadowing.cc:23:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/mac/ieee80211p/Mac1609_4.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+veins/modules/mobility/LinearMobility.cc
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/analogueModel/TwoRayInterferenceModel.cc:24:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/mobility/traci/TraCIBuffer.cc
+veins/modules/mobility/traci/TraCIColor.cc
+veins/modules/mobility/traci/TraCICommandInterface.cc
+veins/modules/mobility/traci/TraCIConnection.cc
+veins/modules/mobility/traci/TraCICoordinateTransformation.cc
+veins/modules/mobility/traci/TraCILauncher.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/base/phyLayer/ChannelInfo.h:31,
+                 from ./veins/base/phyLayer/BasePhyLayer.h:38,
+                 from ./veins/modules/phy/PhyLayer80211p.h:25,
+                 from ./veins/modules/mac/ieee80211p/Mac1609_4.h:32,
+                 from veins/modules/mac/ieee80211p/Mac1609_4.cc:24:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/mobility/traci/TraCIMobility.cc
+veins/modules/mac/ieee80211p/Mac1609_4.cc: In member function ‘virtual void veins::Mac1609_4::changeServiceChannel(veins::Channel)’:
+veins/modules/mac/ieee80211p/Mac1609_4.cc:529:65: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘veins::Channel’ [-Wformat=]
+  529 |         throw cRuntimeError("This Service Channel doesnt exit: %d", cN);
+      |                                                                ~^   ~~
+      |                                                                 |   |
+      |                                                                 int veins::Channel
+veins/modules/mobility/traci/TraCICommandInterface.cc: In member function ‘std::vector<std::tuple<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int, double, char> > veins::TraCICommandInterface::Vehicle::getNextTls()’:
+veins/modules/mobility/traci/TraCICommandInterface.cc:663:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint32_t’ {aka ‘unsigned int’} [-Wsign-compare]
+  663 |     for (int i = 0; i < numLinks; ++i) {
+      |                     ~~^~~~~~~~~~
+veins/modules/mobility/traci/TraCIRegionOfInterest.cc
+veins/modules/mobility/traci/TraCIScenarioManager.cc
+veins/modules/mobility/traci/TraCIScenarioManagerLaunchd.cc
+veins/modules/mobility/traci/TraCIScenarioManagerForker.cc
+veins/modules/mobility/traci/TraCIScreenRecorder.cc
+veins/modules/mobility/traci/TraCIVehicleInserter.cc
+veins/modules/obstacle/MobileHostObstacle.cc
+veins/modules/obstacle/Obstacle.cc
+veins/modules/obstacle/ObstacleControl.cc
+veins/modules/obstacle/VehicleObstacleControl.cc
+veins/modules/phy/Decider80211p.cc
+veins/modules/phy/NistErrorRate.cc
+veins/modules/phy/PhyLayer80211p.cc
+veins/modules/phy/SampledAntenna1D.cc
+veins/modules/utility/BBoxLookup.cc
+veins/modules/utility/HasLogProxy.cc
+veins/modules/utility/TimerManager.cc
+veins/modules/world/annotations/AnnotationDummy.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/modules/obstacle/VehicleObstacleControl.cc:33:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/modules/phy/Decider80211p.cc:33:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/world/annotations/AnnotationManager.cc
+veins/modules/world/traci/trafficLight/TraCITrafficLightInterface.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from ./veins/base/phyLayer/ChannelInfo.h:31,
+                 from ./veins/base/phyLayer/BasePhyLayer.h:38,
+                 from ./veins/modules/phy/PhyLayer80211p.h:25,
+                 from veins/modules/phy/PhyLayer80211p.cc:28:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/world/traci/trafficLight/TraCITrafficLightProgram.cc
+veins/modules/world/traci/trafficLight/logics/TraCITrafficLightAbstractLogic.cc
+veins/modules/world/traci/trafficLight/logics/TraCITrafficLightSimpleLogic.cc
+veins/visualizer/roads/RoadsCanvasVisualizer.cc
+veins/visualizer/roads/RoadsOsgVisualizer.cc
+veins/common_m.cc
+veins/base/messages/AirFrame_m.cc
+veins/base/messages/BorderMsg_m.cc
+veins/base/messages/MacPkt_m.cc
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:59:10: error: ‘Group’ in namespace ‘osg’ does not name a type
+   59 |     osg::Group* figures;
+      |          ^~~~~
+./veins/visualizer/roads/RoadsOsgVisualizer.h:61:10: error: ‘Geode’ in namespace ‘osg’ does not name a type
+   61 |     osg::Geode* createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width);
+      |          ^~~~~
+veins/base/toolbox/Signal_m.cc
+veins/base/utils/Coord_m.cc
+veins/base/utils/POA_m.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from veins/base/messages/AirFrame_m.h:37,
+                 from veins/base/messages/AirFrame_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/base/utils/SimpleAddress_m.cc
+veins/modules/application/traci/TraCIDemo11pMessage_m.cc
+veins/modules/messages/AckTimeOutMessage_m.cc
+veins/modules/messages/AirFrame11p_m.cc
+veins/modules/messages/BaseFrame1609_4_m.cc
+veins/modules/messages/DemoSafetyMessage_m.cc
+veins/modules/messages/DemoServiceAdvertisement_m.cc
+veins/modules/messages/Mac80211Ack_m.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/base/toolbox/Signal_m.h:39,
+                 from veins/base/toolbox/Signal_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In member function ‘virtual void veins::RoadsOsgVisualizer::initialize(int)’:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: error: ‘figures’ was not declared in this scope; did you mean ‘fire’?
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+      |         fire
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In lambda function:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:81:29: error: ‘createLine’ was not declared in this scope
+   81 |                 auto line = createLine(coords, color, width);
+      |                             ^~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:82:17: error: ‘figures’ is not captured
+   82 |                 figures->addChild(line);
+      |                 ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:69:49: note: the lambda has no capture-default
+   69 |         auto onTraciInitialized = [this, manager](veins::SignalPayload<bool> payload) {
+      |                                                 ^
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: note: ‘<typeprefixerror>figures’ declared here
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc: At global scope:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: error: no declaration matches ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+   98 | osg::Geode* RoadsOsgVisualizer::createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width)
+      |             ^~~~~~~~~~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: note: no functions named ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:50:17: note: ‘class veins::RoadsOsgVisualizer’ defined here
+   50 | class VEINS_API RoadsOsgVisualizer : public cSimpleModule {
+      |                 ^~~~~~~~~~~~~~~~~~
+veins/modules/messages/Mac80211Pkt_m.cc
+veins/modules/messages/PhyControlMessage_m.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/messages/AirFrame11p_m.h:37,
+                 from veins/modules/messages/AirFrame11p_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/messages/TraCITrafficLightMessage_m.cc
+make[1]: *** [Makefile:229: ../out/gcc-debug/src/veins/visualizer/roads/RoadsOsgVisualizer.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/src'
+make: *** [Makefile:36: all] Error 2
+"make MODE=debug -j12 all" terminated with exit code 2. Build might be incomplete.
+17:54:44 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/src'
+veins/visualizer/roads/RoadsOsgVisualizer.cc
+veins/common_m.cc
+veins/base/messages/AirFrame_m.cc
+veins/base/messages/BorderMsg_m.cc
+veins/base/messages/MacPkt_m.cc
+veins/base/toolbox/Signal_m.cc
+veins/base/utils/Coord_m.cc
+veins/base/utils/POA_m.cc
+veins/base/utils/SimpleAddress_m.cc
+veins/modules/application/traci/TraCIDemo11pMessage_m.cc
+veins/modules/messages/AckTimeOutMessage_m.cc
+veins/modules/messages/AirFrame11p_m.cc
+veins/modules/messages/BaseFrame1609_4_m.cc
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:59:10: error: ‘Group’ in namespace ‘osg’ does not name a type
+   59 |     osg::Group* figures;
+      |          ^~~~~
+./veins/visualizer/roads/RoadsOsgVisualizer.h:61:10: error: ‘Geode’ in namespace ‘osg’ does not name a type
+   61 |     osg::Geode* createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width);
+      |          ^~~~~
+veins/modules/messages/DemoSafetyMessage_m.cc
+veins/modules/messages/DemoServiceAdvertisement_m.cc
+veins/modules/messages/Mac80211Ack_m.cc
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from veins/base/messages/AirFrame_m.h:37,
+                 from veins/base/messages/AirFrame_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from veins/base/toolbox/Signal_m.h:39,
+                 from veins/base/toolbox/Signal_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from ./veins/base/toolbox/Signal.h:29,
+                 from ./veins/base/toolbox/Signal_m.h:39,
+                 from ./veins/base/messages/AirFrame_m.h:37,
+                 from veins/modules/messages/AirFrame11p_m.h:37,
+                 from veins/modules/messages/AirFrame11p_m.cc:31:
+./veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+veins/modules/messages/Mac80211Pkt_m.cc
+veins/modules/messages/PhyControlMessage_m.cc
+veins/modules/messages/TraCITrafficLightMessage_m.cc
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In member function ‘virtual void veins::RoadsOsgVisualizer::initialize(int)’:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: error: ‘figures’ was not declared in this scope; did you mean ‘fire’?
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+      |         fire
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In lambda function:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:81:29: error: ‘createLine’ was not declared in this scope
+   81 |                 auto line = createLine(coords, color, width);
+      |                             ^~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:82:17: error: ‘figures’ is not captured
+   82 |                 figures->addChild(line);
+      |                 ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:69:49: note: the lambda has no capture-default
+   69 |         auto onTraciInitialized = [this, manager](veins::SignalPayload<bool> payload) {
+      |                                                 ^
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: note: ‘<typeprefixerror>figures’ declared here
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc: At global scope:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: error: no declaration matches ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+   98 | osg::Geode* RoadsOsgVisualizer::createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width)
+      |             ^~~~~~~~~~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: note: no functions named ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:50:17: note: ‘class veins::RoadsOsgVisualizer’ defined here
+   50 | class VEINS_API RoadsOsgVisualizer : public cSimpleModule {
+      |                 ^~~~~~~~~~~~~~~~~~
+make[1]: *** [Makefile:229: ../out/gcc-release/src/veins/visualizer/roads/RoadsOsgVisualizer.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/src'
+make: *** [Makefile:36: all] Error 2
+"make MODE=release -j12 all" terminated with exit code 2. Build might be incomplete.
+17:59:01 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/src'
+veins/visualizer/roads/RoadsOsgVisualizer.cc
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:59:10: error: ‘Group’ in namespace ‘osg’ does not name a type
+   59 |     osg::Group* figures;
+      |          ^~~~~
+./veins/visualizer/roads/RoadsOsgVisualizer.h:61:10: error: ‘Geode’ in namespace ‘osg’ does not name a type
+   61 |     osg::Geode* createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width);
+      |          ^~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In member function ‘virtual void veins::RoadsOsgVisualizer::initialize(int)’:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: error: ‘figures’ was not declared in this scope; did you mean ‘fire’?
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+      |         fire
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In lambda function:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:81:29: error: ‘createLine’ was not declared in this scope
+   81 |                 auto line = createLine(coords, color, width);
+      |                             ^~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:82:17: error: ‘figures’ is not captured
+   82 |                 figures->addChild(line);
+      |                 ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:69:49: note: the lambda has no capture-default
+   69 |         auto onTraciInitialized = [this, manager](veins::SignalPayload<bool> payload) {
+      |                                                 ^
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: note: ‘<typeprefixerror>figures’ declared here
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc: At global scope:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: error: no declaration matches ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+   98 | osg::Geode* RoadsOsgVisualizer::createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width)
+      |             ^~~~~~~~~~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: note: no functions named ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:50:17: note: ‘class veins::RoadsOsgVisualizer’ defined here
+   50 | class VEINS_API RoadsOsgVisualizer : public cSimpleModule {
+      |                 ^~~~~~~~~~~~~~~~~~
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/src'
+make[1]: *** [Makefile:231: ../out/gcc-release/src/veins/visualizer/roads/RoadsOsgVisualizer.o] Error 1
+make: *** [Makefile:36: all] Error 2
+"make MODE=release -j12 all" terminated with exit code 2. Build might be incomplete.
+18:00:29 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/src'
+veins/visualizer/roads/RoadsOsgVisualizer.cc
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:59:10: error: ‘Group’ in namespace ‘osg’ does not name a type
+   59 |     osg::Group* figures;
+      |          ^~~~~
+./veins/visualizer/roads/RoadsOsgVisualizer.h:61:10: error: ‘Geode’ in namespace ‘osg’ does not name a type
+   61 |     osg::Geode* createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width);
+      |          ^~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In member function ‘virtual void veins::RoadsOsgVisualizer::initialize(int)’:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: error: ‘figures’ was not declared in this scope; did you mean ‘fire’?
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+      |         fire
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In lambda function:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:81:29: error: ‘createLine’ was not declared in this scope
+   81 |                 auto line = createLine(coords, color, width);
+      |                             ^~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:82:17: error: ‘figures’ is not captured
+   82 |                 figures->addChild(line);
+      |                 ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:69:49: note: the lambda has no capture-default
+   69 |         auto onTraciInitialized = [this, manager](veins::SignalPayload<bool> payload) {
+      |                                                 ^
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: note: ‘<typeprefixerror>figures’ declared here
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc: At global scope:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: error: no declaration matches ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+   98 | osg::Geode* RoadsOsgVisualizer::createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width)
+      |             ^~~~~~~~~~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: note: no functions named ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:50:17: note: ‘class veins::RoadsOsgVisualizer’ defined here
+   50 | class VEINS_API RoadsOsgVisualizer : public cSimpleModule {
+      |                 ^~~~~~~~~~~~~~~~~~
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/src'
+make[1]: *** [Makefile:231: ../out/gcc-release/src/veins/visualizer/roads/RoadsOsgVisualizer.o] Error 1
+make: *** [Makefile:36: all] Error 2
+"make MODE=release -j12 all" terminated with exit code 2. Build might be incomplete.
+18:00:31 **** Build of configuration debug for project veins_catch ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/subprojects/veins_catch/src'
+AntennaPosition.cc
+Coord.cc
+Heading.cc
+helloworld.cc
+SampledAntenna1D.cc
+SignalRepresentation.cc
+SimplePathlossModel.cc
+TwoRayInterferenceModel.cc
+VehicleObstacleControl.cc
+veins_catch.cc
+traci/TraCICoordinateTransformation.cc
+traci/VehicleSignal.cc
+In file included from ../../../src/veins/base/toolbox/Signal.h:29,
+                 from ../../../src/veins/base/toolbox/Signal_m.h:39,
+                 from ../../../src/veins/base/messages/AirFrame_m.h:37,
+                 from TwoRayInterferenceModel.cc:26:
+../../../src/veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from SimplePathlossModel.cc:26:
+../../../src/veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from SignalRepresentation.cc:26:
+../../../src/veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from VehicleObstacleControl.cc:26:
+../../../src/veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+Creating shared library: ../out/gcc-debug/src/libveins_catch_dbg.so
+/usr/bin/ld: cannot find -lveins_dbg: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [Makefile:124: ../out/gcc-debug/src/libveins_catch_dbg.so] Error 1
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/subprojects/veins_catch/src'
+make: *** [Makefile:36: all] Error 2
+"make MODE=debug -j12 all" terminated with exit code 2. Build might be incomplete.
+18:00:45 **** Build of configuration gcc-debug for project veins_inet ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/subprojects/veins_inet/src'
+MSGC: veins_inet/VeinsInetSampleMessage.msg
+veins_inet/VeinsInetSampleMessage.msg:27: Error: cannot resolve import 'inet.common.INETDefs'
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/subprojects/veins_inet/src'
+veins_inet/VeinsInetSampleMessage.msg:28: Error: cannot resolve import 'inet.common.packet.chunk.Chunk'
+veins_inet/VeinsInetSampleMessage.msg:34: Error: 'VeinsInetSampleMessage': unknown base class 'inet::FieldsChunk'
+opp_msgtool: error in 1 file(s)
+make[1]: *** [Makefile:139: veins_inet/VeinsInetSampleMessage_m.h] Error 1
+make: *** [Makefile:36: all] Error 2
+"make MODE=debug -j12 all" terminated with exit code 2. Build might be incomplete.
+18:00:48 **** Build of configuration gcc-debug for project veins_inet3 ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/subprojects/veins_inet3/src'
+veins_inet/VeinsInetManager.cc
+veins_inet/VeinsInetManagerBase.cc
+veins_inet/VeinsInetManagerForker.cc
+veins_inet/VeinsInetMobility.cc
+veins_inet/VeinsInetMobility.cc:29:10: fatal error: inet/common/INETMath.h: No such file or directory
+   29 | #include "inet/common/INETMath.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:127: ../out/gcc-debug/src/veins_inet/VeinsInetMobility.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+In file included from ./veins_inet/VeinsInetManagerForker.h:25,
+                 from veins_inet/VeinsInetManagerForker.cc:23:
+./veins_inet/veins_inet.h:26:10: fatal error: inet/common/INETDefs.h: No such file or directory
+   26 | #include "inet/common/INETDefs.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ./veins_inet/VeinsInetManagerBase.h:25,
+                 from veins_inet/VeinsInetManagerBase.cc:23:
+./veins_inet/veins_inet.h:26:10: fatal error: inet/common/INETDefs.h: No such file or directory
+   26 | #include "inet/common/INETDefs.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:127: ../out/gcc-debug/src/veins_inet/VeinsInetManagerForker.o] Error 1
+In file included from ./veins_inet/VeinsInetManager.h:25,
+                 from veins_inet/VeinsInetManager.cc:23:
+./veins_inet/veins_inet.h:26:10: fatal error: inet/common/INETDefs.h: No such file or directory
+   26 | #include "inet/common/INETDefs.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:127: ../out/gcc-debug/src/veins_inet/VeinsInetManagerBase.o] Error 1
+make[1]: *** [Makefile:127: ../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/subprojects/veins_inet3/src'
+make: *** [Makefile:36: all] Error 2
+"make MODE=debug -j12 all" terminated with exit code 2. Build might be incomplete.
+18:00:48 **** Build of configuration debug for project veins_testsims ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/subprojects/veins_testsims/src'
+veins_testsims/traci/TraCITestApp.cc
+veins_testsims/traci/TraCITrafficLightApp.cc
+veins_testsims/traci/TraCITrafficLightTestLogic.cc
+veins_testsims/utils/asserts.cc
+In file included from veins_testsims/traci/TraCITestApp.cc:27:
+./veins_testsims/utils/asserts.h: In instantiation of ‘void assertEqual(std::string, T, T2) [with T = int; T2 = long unsigned int; std::string = std::__cxx11::basic_string<char>]’:
+veins_testsims/traci/TraCITestApp.cc:379:24:   required from here
+./veins_testsims/utils/asserts.h:117:16: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+  117 |     if (target == actual) {
+      |         ~~~~~~~^~~~~~~~~
+Creating shared library: ../out/gcc-debug/src/libveins_testsims_dbg.so
+/usr/bin/ld: cannot find -lveins_dbg: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [Makefile:112: ../out/gcc-debug/src/libveins_testsims_dbg.so] Error 1
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/subprojects/veins_testsims/src'
+make: *** [Makefile:36: all] Error 2
+"make MODE=debug -j12 all" terminated with exit code 2. Build might be incomplete.

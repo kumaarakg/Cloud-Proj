@@ -1,0 +1,23 @@
+18:00:48 **** Build of configuration debug for project veins_testsims ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/subprojects/veins_testsims/src'
+veins_testsims/traci/TraCITestApp.cc
+veins_testsims/traci/TraCITrafficLightApp.cc
+veins_testsims/traci/TraCITrafficLightTestLogic.cc
+veins_testsims/utils/asserts.cc
+In file included from veins_testsims/traci/TraCITestApp.cc:27:
+./veins_testsims/utils/asserts.h: In instantiation of ‘void assertEqual(std::string, T, T2) [with T = int; T2 = long unsigned int; std::string = std::__cxx11::basic_string<char>]’:
+veins_testsims/traci/TraCITestApp.cc:379:24:   required from here
+./veins_testsims/utils/asserts.h:117:16: warning: comparison of integer expressions of different signedness: ‘int’ and ‘long unsigned int’ [-Wsign-compare]
+  117 |     if (target == actual) {
+      |         ~~~~~~~^~~~~~~~~
+Creating shared library: ../out/gcc-debug/src/libveins_testsims_dbg.so
+/usr/bin/ld: cannot find -lveins_dbg: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [Makefile:112: ../out/gcc-debug/src/libveins_testsims_dbg.so] Error 1
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/subprojects/veins_testsims/src'
+make: *** [Makefile:36: all] Error 2
+"make MODE=debug -j12 all" terminated with exit code 2. Build might be incomplete.
+
+18:00:50 Build Failed. 3 errors, 1 warnings. (took 2s.377ms)
+

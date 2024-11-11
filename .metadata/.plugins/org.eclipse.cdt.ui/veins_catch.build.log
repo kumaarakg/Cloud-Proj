@@ -1,0 +1,44 @@
+18:00:31 **** Build of configuration debug for project veins_catch ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/subprojects/veins_catch/src'
+AntennaPosition.cc
+Coord.cc
+Heading.cc
+helloworld.cc
+SampledAntenna1D.cc
+SignalRepresentation.cc
+SimplePathlossModel.cc
+TwoRayInterferenceModel.cc
+VehicleObstacleControl.cc
+veins_catch.cc
+traci/TraCICoordinateTransformation.cc
+traci/VehicleSignal.cc
+In file included from ../../../src/veins/base/toolbox/Signal.h:29,
+                 from ../../../src/veins/base/toolbox/Signal_m.h:39,
+                 from ../../../src/veins/base/messages/AirFrame_m.h:37,
+                 from TwoRayInterferenceModel.cc:26:
+../../../src/veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from SimplePathlossModel.cc:26:
+../../../src/veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from SignalRepresentation.cc:26:
+../../../src/veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+In file included from VehicleObstacleControl.cc:26:
+../../../src/veins/base/toolbox/Spectrum.h:56:82: warning: ‘visibility’ attribute ignored on non-class types [-Wattributes]
+   56 |     friend std::ostream& VEINS_API operator<<(std::ostream& os, const Spectrum& s);
+      |                                                                                  ^
+Creating shared library: ../out/gcc-debug/src/libveins_catch_dbg.so
+/usr/bin/ld: cannot find -lveins_dbg: No such file or directory
+collect2: error: ld returned 1 exit status
+make[1]: *** [Makefile:124: ../out/gcc-debug/src/libveins_catch_dbg.so] Error 1
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/subprojects/veins_catch/src'
+make: *** [Makefile:36: all] Error 2
+"make MODE=debug -j12 all" terminated with exit code 2. Build might be incomplete.
+
+18:00:40 Build Failed. 3 errors, 4 warnings. (took 8s.594ms)
+

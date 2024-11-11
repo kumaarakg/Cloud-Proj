@@ -1,0 +1,45 @@
+18:00:29 **** Incremental Build of configuration gcc-release for project veins ****
+make MODE=release -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/src'
+veins/visualizer/roads/RoadsOsgVisualizer.cc
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:59:10: error: ‘Group’ in namespace ‘osg’ does not name a type
+   59 |     osg::Group* figures;
+      |          ^~~~~
+./veins/visualizer/roads/RoadsOsgVisualizer.h:61:10: error: ‘Geode’ in namespace ‘osg’ does not name a type
+   61 |     osg::Geode* createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width);
+      |          ^~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In member function ‘virtual void veins::RoadsOsgVisualizer::initialize(int)’:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: error: ‘figures’ was not declared in this scope; did you mean ‘fire’?
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+      |         fire
+veins/visualizer/roads/RoadsOsgVisualizer.cc: In lambda function:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:81:29: error: ‘createLine’ was not declared in this scope
+   81 |                 auto line = createLine(coords, color, width);
+      |                             ^~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:82:17: error: ‘figures’ is not captured
+   82 |                 figures->addChild(line);
+      |                 ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:69:49: note: the lambda has no capture-default
+   69 |         auto onTraciInitialized = [this, manager](veins::SignalPayload<bool> payload) {
+      |                                                 ^
+veins/visualizer/roads/RoadsOsgVisualizer.cc:57:9: note: ‘<typeprefixerror>figures’ declared here
+   57 |         figures = new osg::Group();
+      |         ^~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc: At global scope:
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: error: no declaration matches ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+   98 | osg::Geode* RoadsOsgVisualizer::createLine(const std::list<veins::Coord>& coords, cFigure::Color color, double width)
+      |             ^~~~~~~~~~~~~~~~~~
+veins/visualizer/roads/RoadsOsgVisualizer.cc:98:13: note: no functions named ‘osg::Geode* veins::RoadsOsgVisualizer::createLine(const std::__cxx11::list<veins::Coord>&, omnetpp::cFigure::Color, double)’
+In file included from veins/visualizer/roads/RoadsOsgVisualizer.cc:23:
+./veins/visualizer/roads/RoadsOsgVisualizer.h:50:17: note: ‘class veins::RoadsOsgVisualizer’ defined here
+   50 | class VEINS_API RoadsOsgVisualizer : public cSimpleModule {
+      |                 ^~~~~~~~~~~~~~~~~~
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/src'
+make[1]: *** [Makefile:231: ../out/gcc-release/src/veins/visualizer/roads/RoadsOsgVisualizer.o] Error 1
+make: *** [Makefile:36: all] Error 2
+"make MODE=release -j12 all" terminated with exit code 2. Build might be incomplete.
+
+18:00:31 Build Failed. 8 errors, 0 warnings. (took 2s.279ms)
+

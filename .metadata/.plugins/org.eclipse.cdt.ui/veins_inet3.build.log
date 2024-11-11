@@ -1,0 +1,40 @@
+18:00:48 **** Build of configuration gcc-debug for project veins_inet3 ****
+make MODE=debug -j12 all 
+make[1]: Entering directory '/home/kumaara/sevrerless/veins/subprojects/veins_inet3/src'
+veins_inet/VeinsInetManager.cc
+veins_inet/VeinsInetManagerBase.cc
+veins_inet/VeinsInetManagerForker.cc
+veins_inet/VeinsInetMobility.cc
+veins_inet/VeinsInetMobility.cc:29:10: fatal error: inet/common/INETMath.h: No such file or directory
+   29 | #include "inet/common/INETMath.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:127: ../out/gcc-debug/src/veins_inet/VeinsInetMobility.o] Error 1
+make[1]: *** Waiting for unfinished jobs....
+In file included from ./veins_inet/VeinsInetManagerForker.h:25,
+                 from veins_inet/VeinsInetManagerForker.cc:23:
+./veins_inet/veins_inet.h:26:10: fatal error: inet/common/INETDefs.h: No such file or directory
+   26 | #include "inet/common/INETDefs.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+In file included from ./veins_inet/VeinsInetManagerBase.h:25,
+                 from veins_inet/VeinsInetManagerBase.cc:23:
+./veins_inet/veins_inet.h:26:10: fatal error: inet/common/INETDefs.h: No such file or directory
+   26 | #include "inet/common/INETDefs.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:127: ../out/gcc-debug/src/veins_inet/VeinsInetManagerForker.o] Error 1
+In file included from ./veins_inet/VeinsInetManager.h:25,
+                 from veins_inet/VeinsInetManager.cc:23:
+./veins_inet/veins_inet.h:26:10: fatal error: inet/common/INETDefs.h: No such file or directory
+   26 | #include "inet/common/INETDefs.h"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [Makefile:127: ../out/gcc-debug/src/veins_inet/VeinsInetManagerBase.o] Error 1
+make[1]: *** [Makefile:127: ../out/gcc-debug/src/veins_inet/VeinsInetManager.o] Error 1
+make[1]: Leaving directory '/home/kumaara/sevrerless/veins/subprojects/veins_inet3/src'
+make: *** [Makefile:36: all] Error 2
+"make MODE=debug -j12 all" terminated with exit code 2. Build might be incomplete.
+
+18:00:48 Build Failed. 10 errors, 0 warnings. (took 174ms)
+
