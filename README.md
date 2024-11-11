@@ -9,7 +9,7 @@ The following images explain how we are setting up the MININET CLI and with the 
 # Sumo Simulation to run the cars
 ![Screenshot from 2024-11-11 18-55-01](https://github.com/user-attachments/assets/c8e79d81-0148-4e2f-87f4-307d037f0e5e)
 
-# Residential Area Recreation in Sumo
+# Sumo Simulation of a Map
 ![Screenshot from 2024-11-11 18-52-24](https://github.com/user-attachments/assets/35fff0cc-acb7-4860-a616-645404ef183c)
 
 # Checking for possible Links
@@ -30,5 +30,6 @@ The following images explain how we are setting up the MININET CLI and with the 
 ![Screenshot from 2024-11-11 18-04-09](https://github.com/user-attachments/assets/cf927c78-8761-474b-8a59-23793ebfa535)
 
 # Video demonstrating setting up the Cars with AP's
+- Demonstracting the Cars moving with the given AP
 
 [Screencast from 11-11-24 06:49:32 PM IST.webm](https://github.com/user-attachments/assets/ee38122d-6713-44e3-814d-4916103ee925)
